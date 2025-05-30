@@ -17,6 +17,12 @@ for official model definitions and hyper-parameters.
 
 The custom ops used by Pointnet++ are currently **ONLY** supported on the GPU using CUDA.
 
+修改项
+-----
+
+修改了pointnet2_ops_lib/setup.py的cuda生成命令，保证能适应最新版本的cuda
+
+
 Setup
 -----
 
